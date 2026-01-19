@@ -2,7 +2,7 @@ package com.notifications.lld.decorator;
 
 import com.notifications.lld.notification.INotification;
 
-public class TimestampDecorator implements NotificationDecorator{
+public class TimestampDecorator implements INotificationDecorator{
 
     public INotification notification;
     public TimestampDecorator(INotification notification){

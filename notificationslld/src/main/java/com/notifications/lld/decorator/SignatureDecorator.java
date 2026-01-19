@@ -2,7 +2,7 @@ package com.notifications.lld.decorator;
 
 import com.notifications.lld.notification.INotification;
 
-public class SignatureDecorator implements NotificationDecorator{
+public class SignatureDecorator implements INotificationDecorator{
 
     public INotification notification;
     
