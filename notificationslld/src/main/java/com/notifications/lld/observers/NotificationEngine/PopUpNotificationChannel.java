@@ -11,7 +11,9 @@ public class PopUpNotificationChannel extends NotificationChannel {
     @Override
     public boolean sendNotification(String message) {
         // Simulate sending Pop-Up notification
-        System.out.println("Pop-Up Notification displayed with message: " + message);
+        System.out.println();
+        System.out.println("Pop-Up Notification displayed with message: \n" + message);
+        System.out.println();
         return true;
     }
 

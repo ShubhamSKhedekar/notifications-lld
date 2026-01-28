@@ -17,7 +17,7 @@ public abstract class NotificationChannel implements IObserver {
 
      @Override
     public void update() {
-        System.out.println("Logger Observer: Notification received and logged.");
+        System.out.println("Notification Channels : Notification received and logged.");
         this.logData = observable.getNotificationContent();
         System.out.println("Notification Content: " + logData);
         sendNotification(logData);

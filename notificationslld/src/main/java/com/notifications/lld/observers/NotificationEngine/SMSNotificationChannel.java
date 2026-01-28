@@ -11,7 +11,9 @@ public class SMSNotificationChannel extends NotificationChannel {
     @Override
     public boolean sendNotification(String message) {
         // Simulate sending SMS notification
-        System.out.println("SMS Notification sent with message: " + message);
+        System.out.println();
+        System.out.println("SMS Notification sent with message: \n" + message);
+        System.out.println();
         return true;
     }
 

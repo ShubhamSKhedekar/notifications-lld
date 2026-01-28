@@ -12,10 +12,12 @@ public class NotificationObservable implements IObservable {
 
     @Override
     public boolean notifyObservers() {
+        System.out.println();
         try {
             for (IObserver observer : observers) {  
-                System.out.println("Notifying observer: " + observer);
+                System.out.println("Notifying observer: " + observer.getClass().getSimpleName());
                 observer.update();
+                System.out.println();
             }
             return true;
         } catch (Exception e) {

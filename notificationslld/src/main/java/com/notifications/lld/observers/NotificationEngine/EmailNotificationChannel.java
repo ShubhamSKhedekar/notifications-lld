@@ -11,7 +11,9 @@ public class EmailNotificationChannel extends NotificationChannel {
     @Override
     public boolean sendNotification(String message) {
         // Simulate sending Email notification
-        System.out.println("Email Notification sent with message: " + message);
+        System.out.println();
+        System.out.println("Email Notification sent with message: \n" + message);
+        System.out.println();
         return true;
     }
 
